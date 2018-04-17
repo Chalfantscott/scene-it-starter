@@ -13,4 +13,15 @@ body {
 .results {
 	margin-top: 20px;
 }
+.movies-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: flex-start;
+}
+.card {
+	margin: 5px;
+}
 
